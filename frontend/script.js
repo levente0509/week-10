@@ -11,6 +11,6 @@ form.addEventListener("submit", function (event) {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(product),
+    body: JSON.stringify(product), //mindenképp string legyen --> szerver csak ezt tud küldeni & fogadni
   });
 });
